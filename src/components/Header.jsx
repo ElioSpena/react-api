@@ -1,4 +1,8 @@
-export default function Header({ onActorsClick, onActressesClick }) {
+export default function Header({
+  onActorsClick,
+  onActressesClick,
+  onPerformerClick,
+}) {
   return (
     <header className="fixed-top bg-dark py-3">
       <nav className="container">
@@ -8,6 +12,9 @@ export default function Header({ onActorsClick, onActressesClick }) {
           </button>
           <button onClick={onActressesClick} className="btn btn-outline-light">
             Attrici
+          </button>
+          <button onClick={onPerformerClick} className="btn btn-outline-light">
+            Performers
           </button>
         </div>
       </nav>

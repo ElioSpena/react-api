@@ -1,8 +1,8 @@
-export default function Card({performers}) {
+export default function Card({ performers }) {
   return (
     <div className="row g-4">
-      {performers.map((curPerformer) => (
-        <div key={curPerformer.id} className="col-12 col-md-6 col-lg-4">
+      {performers.map((curPerformer, index) => (
+        <div key={index} className="col-12 col-md-6 col-lg-4">
           <div className="card h-100">
             <img
               src={curPerformer.image}

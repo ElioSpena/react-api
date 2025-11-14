@@ -24,6 +24,7 @@ function App() {
       <Header
         onActorsClick={() => setSelected("actors")}
         onActressesClick={() => setSelected("actresses")}
+        onPerformerClick={() => setSelected("performers")}
       />
       <Main actresses={actresses} actors={actors} selected={selected} />
     </>
