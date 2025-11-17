@@ -46,3 +46,5 @@ Aggiungere nella card dell’attore/attrice i film più famosi
 Se questa task è troppo difficile, prova ad aiutarti con l’AI!
 
 Cerca però sempre di comprendere quello che ti viene suggerito 😉
+
+

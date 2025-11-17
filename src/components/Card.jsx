@@ -23,6 +23,7 @@ export default function Card({ performers }) {
               <li className="list-group-item">{`Birthday: ${curPerformer.birth_year}`}</li>
               <li className="list-group-item">{`Nationality: ${curPerformer.nationality}`}</li>
               <li className="list-group-item">{`Awards: ${curPerformer.awards}`}</li>
+              <li className="list-group-item">{`Movies: ${curPerformer.known_for || curPerformer.most_famous_movies}`}</li>
             </ul>
           </div>
         </div>
